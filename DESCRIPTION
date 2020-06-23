@@ -1,0 +1,67 @@
+Package: CovidUK
+Type: Package
+Title: Estimate Realtime Case Counts and Time-varying Epidemiological Parameters in the UK
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Sam Abbott",
+           role = c("aut", "cre"),
+           email = "contact@samabbott.co.uk",
+           comment = c(ORCID = "0000-0001-8057-8037")),
+    person("Joel", "Hellewell",
+           email = "joel.hellewell@lshtm.ac.uk", 
+           role = c("aut"),
+           comment = c(ORCID = "0000-0003-2683-0849")),
+    person(given = "Nikos",
+           family = "Bosse",
+           role = c("aut"),
+           email = "nikosbosse@gmail.com"),
+    person("Katharine", "Sherratt", 
+           email = "katharine.sherratt@lshtm.ac.uk", 
+           role = c("aut"),    
+           comment = c(ORCID = "0000-0003-4413-453X")),    
+    person("James", "Munday", 
+           email = "james.munday@lshtm.ac.uk", 
+           role = c("aut")), 
+    person("Sebastian", "Funk", 
+            email = "sebastian.funk@lshtm.ac.uk", 
+            role = c("aut")))
+Description: Forecasting and nowcasting Covid-19 related metrics in the UK.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    EpiNow,
+    EpiSoon,
+    NCoVUtils,
+    data.table,
+    future,
+    future.apply,
+    dplyr,
+    tibble,
+    tidyr,
+    stringr,
+    lubridate,
+    magrittr,
+    rmarkdown,
+    stringr,
+    purrr,
+    ggplot2,
+    here,
+    knitr,
+    kableExtra,
+    readr,
+    cowplot,
+    patchwork,
+    rstan,
+    forecastHybrid,
+    openxlsx
+Remotes:
+    epiforecasts/EpiNow,
+    epiforecasts/EpiSoon,
+    epiforecasts/NCoVUtils
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Biarch: true
+Depends: 
+    R (>= 3.4.0)
+    
