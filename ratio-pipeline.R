@@ -8,10 +8,10 @@
 # Then:
 
 # 1 Update/reshape Rt estimates
-source(here::here("update-reshape-rts.R"))
+source(here::here("comparison", "update-reshape-rts.R"))
 # 2 Update ratios
-source(here::here("update-ratios.R"))
+source(here::here("comparison", "update-ratios.R"))
 # 3 Update counts
-source(here::here("update-counts.R"))
+source(here::here("comparison", "update-counts.R"))
 # 4 Plot and save plots: linerange & ratio, national & regional
-source(here::here("update-plots.R"))
+source(here::here("comparison", "update-plots.R"))

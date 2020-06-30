@@ -17,7 +17,6 @@ target <- Sys.Date()
 source(here::here("utils/report-rt.R"))
 
 # Get national Rts -------------------------------------------------------------
-# NB dropping the "linelist cases" which was England only - so these are all public data per country
 national <- list(
   deaths_all = report_rt("nowcast/deaths/national", creation_date = target)[, type := "All deaths"],
   cases_admissions = report_rt("nowcast/national", creation_date = target)[, type := "Admissions"],
