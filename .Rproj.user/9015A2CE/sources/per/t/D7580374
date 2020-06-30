@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1593540187255.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "104104498",
+    "id" : "D7580374",
+    "lastKnownWriteTime" : 1593542270,
+    "last_content_update" : 1593542270024,
+    "path" : "C:/Users/kaths/GitHub/rt-comparison-us/comparison/update-plots.R",
+    "project_path" : "comparison/update-plots.R",
+    "properties" : {
+        "cursorPosition" : "17,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
